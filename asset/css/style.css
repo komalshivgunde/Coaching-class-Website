@@ -1,0 +1,169 @@
+/* Reset some default styles */
+* {
+    margin: 3px;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #434d56;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero {
+	background-color:white;
+    text-align: center;
+    margin-top: 50px;
+	color:black;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #4d6880;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-image 0.3s;
+}
+
+.btn:hover {
+    background-color: #394e60;
+}
+
+section#index {
+	
+	background-image:url('../index1.avif');
+	background-size: 100% 100%;
+	#background-size: cover;
+	height: 400px;
+	text-align: center;
+	color:white;
+
+}
+
+.index_div p{
+	
+	font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.index_div h1{
+	
+	font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+/* About section styles */
+section#about {
+    background-image:url('../aboutus.jpg');
+	background-size: 100% 100%;
+    padding: 50px 0;
+    text-align: center;
+	height: 500px;
+    
+}
+
+/* Contact section styles */
+section#contact {
+    background-image:url('../query.jpg');
+	background-size: 100% 100%;
+    padding: 50px 0;
+    text-align: center;
+}
+
+section#contact input,
+section#contact textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #333;
+}
+
+section#contact textarea {
+    height: 150px;
+}
+
+section#contact h1{
+	
+	color: black;
+}
+
+section#contact button {
+    background-color: #4d6880;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+section#contact button:hover {
+    background-color: #394e60;
+}
+
+/* Footer styles */
+footer {
+    background-color: #434d56;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/*  for courses page  */
+
+.course {
+	
+	padding: 10px 20px;
+}
+
+.course:hover {
+    background-color: #ccc8c4;
+}
